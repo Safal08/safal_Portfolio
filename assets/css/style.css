@@ -9,12 +9,25 @@
 # General
 --------------------------------------------------------------*/
 
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
   position: relative;
   background: transparent;
 }
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #232323;
+}
+
+
+
+
 
 body::before {
   content: "";
